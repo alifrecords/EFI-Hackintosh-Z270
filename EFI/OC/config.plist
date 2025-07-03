@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>ACPI</key>
+    <dict>
+      <key>Add</key>
+      <array>
+        <string>SSDT-EC-USBX.aml</string>
+        <string>SSDT-PLUG.aml</string>
+        <string>SSDT-USB-XHC.aml</string>
+      </array>
+    </dict>
+    <key>Kernel</key>
+    <dict>
+      <key>Add</key>
+      <array>
+        <dict><key>BundlePath</key><string>NvidiaWeb.kext</string></dict>
+      </array>
+    </dict>
+    <key>UEFI</key>
+    <dict>
+      <key>Drivers</key>
+      <array>
+        <string>OpenCore.efi</string>
+        <string>VBoxHfs.efi</string>
+      </array>
+    </dict>
+    <key>PlatformInfo</key>
+    <dict>
+      <key>SystemProductName</key><string>iMac17,1</string>
+      <key>SystemSerialNumber</key><string>C02ABCDE12345</string>
+      <key>MLB</key><string>U3ABCDEFGHIJKLM</string>
+      <key>SystemUUID</key><string>12345678-90AB-CDEF-1234-567890ABCDEF</string>
+    </dict>
+  </dict>
+</plist>
